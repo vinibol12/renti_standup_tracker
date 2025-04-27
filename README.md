@@ -71,4 +71,4 @@ Typescript enforcement is not as strict in the frontend around react components.
 
 ## Notes
 
-- Happy to discuss the validation duplication in the controllers and models. I'd be keen to move the validation to the models, but implementing the middleware and refactoring the controllers would take some time beyond what I believe to be the purpose of this exercise.
+- Happy to discuss the validation duplication in the controllers and models. End goal would be to fully move the validation to the models implementing some validation middleware. Hopefully this will be a good conversation starter. 

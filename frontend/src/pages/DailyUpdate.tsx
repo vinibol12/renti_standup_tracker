@@ -104,7 +104,6 @@ export function DailyUpdatePage() {
   return (
     <PageWrapper 
       title="Daily Update"
-      maxWidth="4xl"
     >
       {isLoading ? (
         <Loading message="Loading today's standup status..." />

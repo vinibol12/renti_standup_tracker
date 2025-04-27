@@ -58,6 +58,8 @@ npm run dev
 
 This project is configured to deploy both frontend and backend to Railway using GitHub Actions.
 
+App is deployed at [https://frontend-production-b6c4.up.railway.app/daily](https://frontend-production-b6c4.up.railway.app/daily)
+
 
 ## Project Structure
 
@@ -65,8 +67,8 @@ Project uses an MVC structure in the backend.
 Adds some level of model validation to remove logic from controllers.
 Exposes validation errors to the frontend by attribute allowing field-specific error messages.
 
-Typescript enforcement is relaxed in the frontend around shadcn-ui components and react components. 
+Typescript enforcement is not as strict in the frontend around react components. 
 
 ## Notes
 
-- Happy to discuss the validation duplication in the controllers and models. I'd be keen to move the validation to the models, but implementing the middleware and refactoring the controllers would take quite a bit of time considering that I've already put quite a few hours into this project.
+- Happy to discuss the validation duplication in the controllers and models. I'd be keen to move the validation to the models, but implementing the middleware and refactoring the controllers would take some time beyond what I believe to be the purpose of this exercise.
